@@ -1,0 +1,395 @@
+
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Open Sans' sans-serif;
+    background-color: #ffffff;
+}
+
+
+/* ----------------------------------------- */
+/*  GENERAL */
+/* ----------------------------------------- */
+
+ header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+nav {
+    text-align:;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-size: 1.1em;
+}
+
+.logo{
+    padding-left: 2em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    margin: 2rem 0 0 0;
+    
+}
+
+h1{
+    font-size: 2rem;
+    
+    
+}
+
+p{
+   font-size: 1.2em;
+   padding: 2px 0;
+}
+
+.card{
+    padding: 1.5rem;
+    
+    
+}
+
+/* ----------------------------------------- */
+/* Container - 1 */
+/* ----------------------------------------- */
+
+
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container-1 > .left{
+    /*width: 50%;*/
+    padding: 3.5rem;
+}
+
+ .intro{
+    padding: 2rem 2rem 2rem 0;
+}
+
+
+.container-1 > .right{
+    
+    /*width: 45%;*/
+    
+}
+
+form{
+   
+    
+}
+
+form > input{
+    
+}
+
+#form-1{
+    margin-bottom: 1.3rem;
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid #555;
+    color: black;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+    font-size: 1em;
+}
+
+#form-2{
+    background-color: hsl(224, 93%, 58%);
+    margin-bottom: 1.3rem;
+    width: 35%;
+    border-radius: 2px;
+    border: 1px solid hsl(224, 93%, 58%);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    line-height: 1.3rem;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+/* ----------------------------------------- */
+/* Container - 2 */
+/* ----------------------------------------- */
+
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(240, 75%, 98%);
+    background-image:url('../images/bg-curve-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+.container-2 > .left{
+margin-left: 1.3em;
+}
+
+.container-2 > .right{
+   
+}
+
+h2{
+    font-size: 2.3em;
+    padding: 1em;
+}
+
+.p-2{
+    padding: 0 2em 0.5em 2em;
+}
+
+.link > a{
+    text-decoration: underline;
+    color: green; 
+}
+
+
+
+.avater{
+    width: 65%;
+    font-size: 0.9em;
+    border: 10px solid #fff;
+    background-color: #ffffff;
+    box-shadow: 0 0.5em 1em #ffffff, 0 2px 2px;
+    margin: 2em 0 4em 2em;
+    padding: 1em;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+#pic{
+    border-radius: 50%;
+    width: 20%;
+    padding-right: 0.5em;
+}
+
+
+/* ----------------------------------------- */
+/* CONTAINER - 3 */
+/* ----------------------------------------- */
+
+.container-3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:  hsl(238, 22%, 44%);
+    
+}
+
+.container-3 > .left{
+    /*width: 50%;*/
+    color: #ffffff;
+
+}
+
+.container-3 > .right{
+   /* width: 50%; */
+    padding: 3em 4em;
+   
+}
+
+.container-3 > h2{
+    font-size: 0.5em;
+}
+
+.p-3{
+    padding-bottom: 2em;
+}
+
+#form-3{
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+    font-size: 1em;
+}
+
+#form-4{
+    background-color: hsl(224, 93%, 58%);
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid  hsl(224, 93%, 58%);
+    color: white;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------- */
+/* FOOTER*/
+/* ----------------------------------------- */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.lg{
+    padding: 2.2em 0 0.5em 2.2em ;
+}
+.lg img{
+    filter: brightness(0) invert(1);
+}
+
+.ft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 0.5em 2.2em;
+}
+
+.ft ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ft ul li{
+    font-size: 1em;
+    padding: 1em;
+}
+
+span{
+  padding-left: 0.2em;
+  font-size: 1.2em;
+}
+
+.nav-footer1  li a{
+    display: block;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.nav-footer2  li a{
+    display: block;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.social-icons{
+    padding-right: 4em;
+}
+
+.social-icons > a >img{
+    filter: brightness(0) invert(1);
+}
+
+
+/* ----------------------------------------- */
+/*RESPONSIVENESS*/
+/* ----------------------------------------- */
+
+@media only screen and (max-width: 800px){
+    html{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+    header{
+        width: 100%;
+        padding: 1em;
+    }
+
+    nav li{
+        padding: 0.5rem;
+    }
+
+    .logo{
+        padding-left: 0.5em;
+        width: 6rem;
+    }
+    
+
+
+    .container-1, .container-2{
+        flex-direction: column-reverse;
+        
+    }
+
+    .container-3{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-1 > .left, .container-1 > .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    #form-1, #form-2, #form-3, #form-4 {
+        width: 100%;
+    }
+    
+
+    .ft{
+        flex-direction: column;
+        padding: 0 0 0.5em 2.2em;
+    }
+    
+    .social-icons{
+        margin: 2em auto;
+    }
+} 
+
+
