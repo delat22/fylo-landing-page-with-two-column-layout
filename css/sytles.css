@@ -142,7 +142,7 @@ form > input{
     width: 35%;
     border-radius: 2px;
     border: 1px solid hsl(224, 93%, 58%);
-    color: white;
+    color: #ccc;
     padding: 0.5rem 1.2rem;
     line-height: 1.3rem;
     cursor: pointer;
@@ -227,13 +227,11 @@ figure {
 }
 
 .container-3 > .left{
-    /*width: 50%;*/
-    color: #ffffff;
+    color: #ccc;
 
 }
 
 .container-3 > .right{
-   /* width: 50%; */
     padding: 3em 4em;
    
 }
@@ -263,7 +261,7 @@ figure {
     width: 100%;
     border-radius: 2px;
     border: 1px solid  hsl(224, 93%, 58%);
-    color: white;
+    color: #ccc;
     padding: 0.5rem 1rem;
     line-height: 1.3rem;
     font-size: 0.9em;
@@ -277,7 +275,7 @@ figure {
 
 footer {
     background-color: hsl(243, 87%, 12%);
-    color: #ffffff;
+    color: #ccc;
     margin: 0;
 }
 
@@ -314,13 +312,13 @@ span{
 
 .nav-footer1  li a{
     display: block;
-    color: #ffffff;
+    color: #ccc;
     font-size: 1.2em;
 }
 
 .nav-footer2  li a{
     display: block;
-    color: #ffffff;
+    color: #ccc;
     font-size: 1.2em;
 }
 
@@ -332,6 +330,8 @@ span{
     filter: brightness(0) invert(1);
 }
 
+.nav-footer3 { font-size: 14px; text-align: center; margin:1em; color: #ccc; }
+.nav-footer3 a { color: hsl(228, 45%, 44%); }
 
 /* ----------------------------------------- */
 /*RESPONSIVENESS*/
